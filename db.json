@@ -1,0 +1,141 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "test@example.com",
+      "password": "password123",
+      "name": "Test",
+      "lastName": "User",
+      "role": "Guest"
+    },
+    {
+      "id": "2",
+      "name": "Mario",
+      "lastName": "Bianchi",
+      "email": "mariucciobianchi56@virgilio.it",
+      "password": "passwordMoltoEfficace",
+      "role": "member"
+    },
+    {
+      "id": "298c",
+      "email": "paololimiti@gmail.com",
+      "password": "111111"
+    },
+    {
+      "id": "2326",
+      "name": "paolo",
+      "lastName": "limiti",
+      "email": "paololimiti@gmail.com",
+      "password": "111111",
+      "role": "guest"
+    },
+    {
+      "email": "ab@gmail.com",
+      "password": "111222",
+      "name": "a",
+      "lastName": "b",
+      "role": "guest",
+      "id": "4S74s_V"
+    },
+    {
+      "email": "elia1@gmail.com",
+      "password": "aaazzz",
+      "name": "elia",
+      "lastName": "giolli",
+      "role": "guest",
+      "id": "zA7TqrF"
+    },
+    {
+      "email": "e@gmail.com",
+      "password": "aaazzz",
+      "name": "elia",
+      "lastName": "giolli",
+      "role": "member",
+      "id": "TWfpMHd"
+    }
+  ],
+  "loans": [
+    {
+      "id": "1",
+      "userId": "1",
+      "userName": "Mario",
+      "lastName": "Strurniolo",
+      "bookId": "10",
+      "borrowDate": "2025-06-01T10:00:00Z",
+      "dueDate": "2025-06-15T10:00:00Z"
+    },
+    {
+      "userId": "TWfpMHd",
+      "userName": "elia",
+      "lastName": "giolli",
+      "bookId": "10",
+      "bookTitle": "Coloring Book",
+      "loanDate": "2025-06-20T13:12:25.993Z",
+      "id": "5rbzA-L"
+    },
+    {
+      "userId": "TWfpMHd",
+      "userName": "elia",
+      "lastName": "giolli",
+      "bookId": "5",
+      "bookTitle": "Anne's House of Dreams",
+      "loanDate": "2025-06-20T13:12:41.630Z",
+      "id": "pixbXhr"
+    }
+  ],
+  "favourites": [
+    {
+      "id": "1",
+      "userId": "1",
+      "userName": "Mario",
+      "lastName": "Bianchi",
+      "bookId": "10",
+      "bookTitle": "IT"
+    },
+    {
+      "userId": "2",
+      "userName": "Mario",
+      "lastName": "Bianchi",
+      "bookId": "/works/OL2895536W",
+      "bookTitle": "Carmilla",
+      "id": "A4MbSee"
+    },
+    {
+      "userId": "2",
+      "userName": "Mario",
+      "lastName": "Bianchi",
+      "bookId": "/works/OL85891W",
+      "bookTitle": "The Jewel of Seven Stars",
+      "id": "7L4KA4G"
+    },
+    {
+      "bookId": "/works/OL85891W",
+      "bookTitle": "The Jewel of Seven Stars",
+      "id": "tl4FMA1"
+    },
+    {
+      "userId": "TWfpMHd",
+      "userName": "elia",
+      "lastName": "giolli",
+      "bookId": "/works/OL85891W",
+      "bookTitle": "The Jewel of Seven Stars",
+      "id": "bN1CSSV"
+    },
+    {
+      "userId": "TWfpMHd",
+      "userName": "elia",
+      "lastName": "giolli",
+      "bookId": "/works/OL81626W",
+      "bookTitle": "Carrie",
+      "id": "ZwQxWaE"
+    },
+    {
+      "userId": "TWfpMHd",
+      "userName": "elia",
+      "lastName": "giolli",
+      "bookId": "/works/OL85892W",
+      "bookTitle": "Dracula",
+      "id": "Faa43zw"
+    }
+  ]
+}
